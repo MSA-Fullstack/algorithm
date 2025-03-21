@@ -13,8 +13,7 @@ class Solution {
                 answer += (sArr[i] - '0') * tenth;
                 tenth *= 10;
             }
-        }
-        
+        }        
         return answer;
     }
 }
